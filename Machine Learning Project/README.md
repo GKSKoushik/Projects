@@ -38,10 +38,10 @@ Keywords: Local Outlier Factor,Adaptive Sliding window,Entropy Weighted Matrix
 
 # Dataset Visualization
 
-![Dataset](Images/1.png)
+![Dataset](Images/11.png)
 
 # Proposed Techniques (Architecture)
-![Dataset]()
+![Architecture](Images/12.png)
 
 # Algorithms
 ## 1. LOCAL OUTLIER FACTOR(LOF):
@@ -238,7 +238,7 @@ clusters = np.where(df['ua'] == -1,0, 1)
 silhouette_avg = silhouette_score(df,clusters)
 print("The average silhouette_score is :", silhouette_avg)
 ```
-
+![](Images/11.png)
 
 
 # CONCLUSION AND FUTURE PLANS
