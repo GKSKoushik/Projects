@@ -238,9 +238,28 @@ clusters = np.where(df['ua'] == -1,0, 1)
 silhouette_avg = silhouette_score(df,clusters)
 print("The average silhouette_score is :", silhouette_avg)
 ```
-![](Images/11.png)
-
-
+---
+![Voltage VS Vibration](Images/1.png)
+#### shows the relation between voltage and vibration of the rotating shaft
+---
+![LOF Density Plot](Images/2.png)
+#### Differentiates anomaly points and  normal points where yellow dots represents normal data points and violet dots represents anomaly points
+---
+![Entropy Weighted Matrix](Images/3.png)
+#### depicts the entropy value of the anomaly points using the suggested Entropy Weighted Matrix method
+---
+![Entropy Value](Images/4.png)
+#### Shows the entropy value of the normal data points
+---
+![Anomalies](Images/5.png)
+#### Picturizes the updated anomaly points found using the enhanced algorithm
+---
+![LOF Silhouette Score](Images/6.png)
+#### Gives the silhouette score of the normal LOF algorithm (silhouette score is a clustering metrics used for finding how well the clustering is done)
+---
+![WMLOF Silhouette Score](Images/7.png)
+#### Reveals the improved silhouette score of the Weighted Matrix Local Outlier Factor(WMLOF)
+---
 # CONCLUSION AND FUTURE PLANS
 
 The proposed method for anomaly detection using EWM,ASW AND LOF has significant potential for increasing data quality and reduce uncertainty in the data.It effectively detects slight anomaly signals.In the field of machine health monitoring such qualities are essential to prevent machinery faults.Further we can  increase  the efficiency to find anomalies meeting the real time demand of the practical machinery health monitoring and to make this algorithm suitable for any kind of machinery data.
