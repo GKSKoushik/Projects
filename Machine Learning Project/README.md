@@ -238,3 +238,9 @@ clusters = np.where(df['ua'] == -1,0, 1)
 silhouette_avg = silhouette_score(df,clusters)
 print("The average silhouette_score is :", silhouette_avg)
 ```
+
+
+
+# CONCLUSION AND FUTURE PLANS
+
+The proposed method for anomaly detection using EWM,ASW AND LOF has significant potential for increasing data quality and reduce uncertainty in the data.It effectively detects slight anomaly signals.In the field of machine health monitoring such qualities are essential to prevent machinery faults.Further we can  increase  the efficiency to find anomalies meeting the real time demand of the practical machinery health monitoring and to make this algorithm suitable for any kind of machinery data.
