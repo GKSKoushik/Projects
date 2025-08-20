@@ -38,7 +38,7 @@ Keywords: Local Outlier Factor,Adaptive Sliding window,Entropy Weighted Matrix
 
 # Dataset Visualization
 
-![Dataset](images/1.1png)
+![Dataset](Machine Learning Project/Images/1.1.png)
 
 # Proposed Techniques (Architecture)
 ![Dataset]()
